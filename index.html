@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cards</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <style>
+        
+
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='595656' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    width: 4.5vh;
+    height: 4.5vh;
+    
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='595656' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 4.5vh;
+    height: 4.5vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+    box-shadow: 0 5px 5px grey;
+    margin-bottom: 3vw;
+}
+b,p{
+    font-family:Oxygen ;
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm">
+        <div id=logo>
+            <a class="navbar-brand" href="#"><img src="ryd.png" alt="icon" width="80" height="80"></a>
+        </div>
+        <div class="row">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#gs" style="font-family: 'Oxygen', sans-serif; color: black;font-size: 1.5vw;margin-right: 2.5vw;">General Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#eng" style="font-family: 'Oxygen', sans-serif;color: black;font-size: 1.5vw;margin-right: 2.5vw;">English</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lr" style="font-family: 'Oxygen', sans-serif;color: black; font-size: 1.5vw;">Logical Reasoning</a>
+            </li>
+            
+            
+              
+              
+          </ul>
+        </div>
+      </nav>
+    
+</div>
+        </header>
+       
+    <div class="container" id="gs" style="margin-bottom: 3vw;">
+        <div class="text-center">
+            <p style="font-size: 7vh;font-family: 'Oxygen';margin-bottom: 3%;">General Studies</p>
+        </div>
+        <div class="col-12">
+            <div class="carousel slide" id="carousele" date-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="download.jpeg"  alt="geography" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;" >
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Geography</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>            
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="hist.jpg"  alt="history" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;" >
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">History</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>            
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="eco.jpeg" alt="economisc" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Economics</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="po.jpeg" alt="economisc" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Economics</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>           
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="co.jpg" alt="economisc" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Communication</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>                
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="curr.jpg" alt="economisc" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Current Affairs</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>         
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousele" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousele" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+            </div>
+
+        </div>
+    </div>
+
+  
+     
+     <div class="container" id="eng" style="margin-bottom: 3vw;">
+        <div class="text-center">
+            <p style="font-size: 7vh;font-family: 'Oxygen';margin-bottom: 3%;">English</p>
+        </div>
+        <div class="col-12">
+            <div class="carousel slide" id="carousele2" date-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousele2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousele2" data-slide-to="1"></li>
+                    
+                  </ol>
+                <div class="carousel-inner">
+                   
+                    
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card"  style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="read.jpeg"  alt="reading" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;" >
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Reading Skills</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>           
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="writ.jpeg"  alt="writing" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;"  >
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Writing Skills</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>           
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="gra.jpeg" alt="grammar" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Grammar</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>        
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="ess.jpeg" alt="essay" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Essay Writing</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="story.jpeg" alt="story" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Story Telling</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>      
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="letter.jpg" alt="letter" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Letter Writing</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>           
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousele2" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousele2" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container" id="lr" style="margin-bottom: 3vw;">
+        <div class="text-center" style="margin-bottom: 3%;">
+            <p style="font-size: 7.5vh;font-family: 'Oxygen';">Logical Reasoning</p>
+        </div>
+        <div class="col-12">
+            <div class="carousel slide" id="carousele3" date-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="puzz.jpg"  alt="puzz" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;" >
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Puzzles</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>           
+                                      
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="long.jpg"  alt="long" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;" >
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Long Riddles</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>         
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="word.jpg" alt="word riddles" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Word Riddles</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>           
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%; margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="missing.png" alt="economisc" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Missing Number</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>           
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="cube.jpeg" alt="economisc" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;"> 
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Cube Problems</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>          
+                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="card" style=" border-radius: 5%;margin-bottom: 10%;">
+                                    <img class="img-fluid card-img-top" src="call.webp" alt="economisc" style="border-radius: 5%; border-bottom-left-radius:1.5% ;border-bottom-right-radius:1.5% ;">
+                                    <div class="card-body" >
+                                        <div style="margin-bottom: 3vh;"><b style="font-size: 4vh;">Calender Date</b></div>
+                                        <p style="font-size: 2.25vh;"> This is a longer card with suppoting text below as a natural-lead in to additional content. This content is a bit longer.</p>
+                                        <p style="font-size: 2vh; color:#8f8686">Last Updated 3 minutes ago</p>            
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousele3" data-slide="prev">
+                    <span class="carousel-control-prev-icon" ></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousele3" data-slide="next">
+                    <span class="carousel-control-next-icon" ></span>
+                  </a>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="align-self-center">
+        <div class="text-center" style="box-shadow:0 -2px 5px grey">
+          <p style="font-family: Oxygen; margin-top: 3px; margin-bottom:3px;font-size: 1vw;">CopyRight 2020. Developed by Satwik</p>
+      
+        </div>
+      </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</html>
